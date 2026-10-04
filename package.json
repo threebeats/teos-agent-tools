@@ -1,8 +1,13 @@
 {
   "name": "teos-agent-tools",
   "version": "1.0.0",
+  "mcpName": "io.github.threebeats/teos-agent-tools",
   "description": "TEOS MCP Server — agent tools priced per call in USDC over x402. Free DNS/SSL check, site status, summarize, keyphrases, decide, data cleanup, claim verification, grounding. No signup, no API key.",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/threebeats/teos-agent-tools.git"
+  },
   "bin": { "teos-agent-tools": "server.mjs" },
   "main": "server.mjs",
   "scripts": {
