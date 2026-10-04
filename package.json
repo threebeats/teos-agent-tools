@@ -1,0 +1,18 @@
+{
+  "name": "teos-agent-tools",
+  "version": "1.0.0",
+  "description": "TEOS MCP Server — agent tools priced per call in USDC over x402. Free DNS/SSL check, site status, summarize, keyphrases, decide, data cleanup, claim verification, grounding. No signup, no API key.",
+  "type": "module",
+  "bin": { "teos-agent-tools": "server.mjs" },
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "keywords": ["mcp", "x402", "agents", "usdc", "tools", "teos"],
+  "author": "Elias Easton (TEOS)",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "engines": { "node": ">=18" }
+}
